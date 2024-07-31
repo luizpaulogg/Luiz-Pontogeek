@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background: red;
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header{
+    border: solid 6px white;
+    padding: 20px ;
+    font-size: 34px;
+}
+
+.chamada{
+    background: black;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+}
+
+img{
+    height: 180px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+}
+
+.Novidades{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+
+}
